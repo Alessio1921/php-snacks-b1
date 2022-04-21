@@ -41,7 +41,7 @@ Stampiamo il nostro array mettendo gli insegnanti in un rettangolo grigio e i PM
     <div class="bg-secondary w-50">
       <h1 class="text-center text-white">Insegnanti</h1>
       <?php
-        for ($i=0; $i < count($dbValues); $i++) { 
+        for ($i=0; $i < count($dbValues[0]); $i++) { 
           ?>
         <h3>
           <?php
@@ -56,7 +56,7 @@ Stampiamo il nostro array mettendo gli insegnanti in un rettangolo grigio e i PM
     <div class="bg-success w-50">
       <h1 class="text-white text-center">PM</h1>
     <?php
-      for ($i=0; $i < count($dbValues); $i++) { 
+      for ($i=0; $i < count($dbValues[1]); $i++) { 
         ?>
       <h3>
         <?php
